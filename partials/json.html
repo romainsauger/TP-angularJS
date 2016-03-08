@@ -1,0 +1,14 @@
+  <p>Filtrer : <input type="text" ng-model="search"></p>
+  <p>limite : <input type="number" ng-model="limit"></p>
+  <table>
+    <tr>
+      <th ng-click="toggle('Name')">Name</th>
+      <th ng-click="toggle('Artist')">Artist</th>
+      <th ng-click="toggle('Year')">Year</th>
+    </tr>
+    <tr ng-repeat="album in albums | orderBy:order | limitTo:limit | filter:search">
+      <td>{{album.Name}} </td>
+      <td>{{album.Artist}} </td>
+      <td>{{album.Year}} </td>
+    </tr>
+  </table>

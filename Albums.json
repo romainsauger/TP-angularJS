@@ -1,27 +1,27 @@
 [
   { 
-    Name   : 'Dark side of the moon', 
-    Artist : 'Pink Floyd', 
-    Year   : 1973 
+    "Name"   : "Dark side of the moon", 
+    "Artist" : "Pink Floyd", 
+    "Year"   : 1973 
   },
   { 
-    Name   : 'Argus',
-    Artist : 'Wishbone Ash', 
-    Year   : 1972 
+    "Name"   : "Argus",
+    "Artist" : "Wishbone Ash", 
+    "Year"   : 1972 
   },
   { 
-    Name   : 'Ziggy Stardust', 
-    Artist : 'David Bowie', 
-    Year   : 1972 
+    "Name"   : "Ziggy Stardust", 
+    "Artist" : "David Bowie", 
+    "Year"   : 1972 
   },
   { 
-    Name   : 'Badfinger', 
-    Artist : 'Badfinger',
-    Year   : 1971 
+    "Name"   : "Badfinger", 
+    "Artist" : "Badfinger",
+    "Year"   : 1971 
   },
   { 
-    Name   : 'Thriller', 
-    Artist : 'Michael Jackson', 
-    Year   : 1982 
+    "Name"   : "Thriller", 
+    "Artist" : "Michael Jackson", 
+    "Year"   : 1982 
   }
 ]
